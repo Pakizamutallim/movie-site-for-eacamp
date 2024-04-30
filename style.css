@@ -1,0 +1,177 @@
+body {
+    background-color: #242424;
+  }
+  
+  body .color-white {
+    color: white;
+  }
+  
+  body .bar-red {
+    width: 100%;
+    height: 8vh;
+    background-color: #ec3f3f;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  body .bar-red .logo {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 2%;
+  }
+  
+  body .bar-red .info {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-right: 2%;
+  }
+  
+  body .bar-red .info button {
+    margin: 2%;
+    background-color: transparent;
+    border: none;
+    height: 4vh;
+    font-size: 15px;
+  }
+  
+  body .bar-red .info .photo {
+    padding: 1%;
+    text-align: center;
+  }
+  
+  body .bar-red .info .photo img {
+    border-radius: 50%;
+  }
+  
+  body .all-body .menu {
+    width: 20%;
+    background-color: black;
+  }
+  
+  body .all-body .menu ul {
+    margin: 10% 0;
+  }
+  
+  body .all-body .menu ul li {
+    padding: 5% 00%;
+    font-size: 20px;
+    margin: 2% 0;
+  }
+  
+  body .all-body .menu ul li a {
+    color: white;
+    margin-left: 20%;
+  }
+  
+  body .all-body .menu ul li:hover {
+    background-color: gray;
+  }
+  
+  body .all-body .menu hr {
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  body .all-body .menu .activity {
+    margin: 10%;
+  }
+  
+  body .all-body .menu .activity h4 {
+    color: white;
+    font-size: 24px;
+  }
+  
+  body .all-body .menu .activity .users {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 15% 0;
+  }
+  
+  body .all-body .menu .activity .users img {
+    border-radius: 50%;
+    margin: 5%;
+  }
+  
+  body .all-body .menu .activity .users .text p {
+    color: white;
+    font-size: 16px;
+  }
+  
+  body .all-body .menu .activity .users .text span {
+    color: #c4b9b9;
+  }
+  
+  body .all-body .new-r {
+    width: 80%;
+    margin: 2%;
+  }
+  
+  body .all-body .new-r h1 {
+    color: white;
+  }
+  
+  body .all-body .new-r .films .item {
+    margin: 1%;
+    position: relative;
+  }
+  
+  body .all-body .new-r .films .item .names {
+    margin-top: 3%;
+  }
+  
+  body .all-body .new-r .films .item .names p {
+    color: white;
+  }
+  
+  body .all-body .new-r .films .item .names span {
+    color: #c4b9b9;
+  }
+  
+  body .all-body .new-r .films .item .star {
+    position: absolute;
+    top: -10px;
+    left: 60px;
+    background-color: #ebc106;
+    width: 70px;
+    height: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 40px;
+  }
+  
+  body .all-body .new-r .films .item .bg {
+    width: 180px;
+    height: 240px;
+    background-size: 100%;
+    -webkit-transition: .25s;
+    transition: .25s;
+    background-position: center;
+    background-image: url("https://musicart.xboxlive.com/7/89ae2f00-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080");
+  }
+  
+  body .all-body .new-r .films .item:hover .bg {
+    background-color: #ec3f3f;
+    opacity: 0.5;
+    background-position: center;
+    background-size: 110%;
+    background-repeat: no-repeat;
+  }

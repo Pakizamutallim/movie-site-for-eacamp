@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+ul li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d-f{
+    display: flex;
+}
+.jcac{
+    justify-content: center;
+    align-items: center;
+}
+
+.jc-center{
+    justify-content: center;
+}
+
+.jc-between{
+    justify-content: space-between;
+}
+
+.jc-end{
+    justify-content: flex-end;
+}
+
+.col-3{
+    width: calc(100%*3/12);
+}
+
+.col-4{
+    width: calc(100%*4/12);
+}
+
+.col-6{
+    width: calc(100%*6/12);
+}
+
+.col-8 {
+    width: calc(100%*8/12);
+}
+.col-9 {
+    width: calc(100%*9/12);
+}
+
+.col-12{
+    width: calc(100%*12/12); 
+}
